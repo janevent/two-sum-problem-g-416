@@ -76,7 +76,7 @@ function hashTwoSum(array, sum){
     if(addend in hashStorage)
       nums.push([array[i], addend])
     }
-    hashStorage[array[i]] = i;
+    hashStorage[array[i]] = i
   }
   return nums;
 }
