@@ -78,5 +78,5 @@ function hashTwoSum(array, sum){
     }
     hashStorage[array[i]] = i;
   }
-  return nums
+  return nums;
 }
