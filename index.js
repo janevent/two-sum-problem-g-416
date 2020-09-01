@@ -76,7 +76,7 @@ function hashTwoSum(array, sum){
     //if exists
       nums.push([array[i], addend])
     }
-    numsObj[array[i]]
+    numsObj[array[i]] = i;
   }
   return nums
 }
