@@ -49,7 +49,6 @@ function binarySearchTwoSum(array, sum){
 
 function binaryMatch(array, number, start=0, end=array.length-1){
   let sortedArray = array.sort();
-  
   let midpoint = Math.floor(start + (end-start)/2);
   switch(true){
     case sortedArray[start] === number:
