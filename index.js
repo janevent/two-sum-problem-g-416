@@ -74,7 +74,7 @@ function hashTwoSum(array, sum){
   for( let i in array){
     let addend = sum - array[i];
     if(addend in hashStorage){
-      nums.push([array[i], addend])
+      nums.push( [addend, array[i]])
     }
     hashStorage[array[i]] = i
   }
