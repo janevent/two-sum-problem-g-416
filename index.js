@@ -66,3 +66,7 @@ function binaryMatch(array, number, start=0, end=array.length-1){
   }
   return false
 }
+
+function hashTwoSum(array, sum){
+  
+}
