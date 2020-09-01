@@ -68,5 +68,11 @@ function binaryMatch(array, number, start=0, end=array.length-1){
 }
 
 function hashTwoSum(array, sum){
+  let hashStorage = {};
+  let nums = [];
   
+  for( let i in array){
+    let target = sum - array[i];
+  }
+  return nums
 }
